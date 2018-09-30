@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
 
     'sms',
+    'script',
     'crispy_forms',
 
     'allauth',
