@@ -1,0 +1,8 @@
+africastalking==1.1.4
+Django==2.1.1
+django-allauth==0.36.0
+django-crispy-forms==1.7.2
+django-filter==2.0.0
+gunicorn==19.9.0
+virtualenv==16.0.0
+virtualenvwrapper-win==1.2.5

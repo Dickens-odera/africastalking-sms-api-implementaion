@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+                <form method="post" action="">
+                        {% csrf_token %}
+                        {{form|crispy}}
+                        <input type="submit" value="Save" class="btn btn-success btn-sm"/>
+                    </form>
+                        {% for members in recipients%}
+                        <ul>
+                                <li>
+                            {{members.name}} {{members.phone_number}}
+        
+                    </li>
+                    </ul>
+                    {% endfor %}
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+</div>
+{% endblock %}
