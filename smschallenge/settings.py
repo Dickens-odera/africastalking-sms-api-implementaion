@@ -139,7 +139,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 if DEBUG:
     STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),'static','bootstrap')
-    STATICFILES_DIR = 'smschallenge/sms/static'
+    STATICFILES_DIRS = ('smschallenge/sms/static'),
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 

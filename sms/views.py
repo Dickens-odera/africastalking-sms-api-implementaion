@@ -15,3 +15,6 @@ def index(request):
         return redirect("index-page")
     return render(request, template, context)
 
+
+    
+
