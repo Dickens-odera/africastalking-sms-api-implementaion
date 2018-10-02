@@ -25,7 +25,7 @@ SECRET_KEY = 'z8s010mtu+(pgg2tuz!-ktc)likrz-stzej151agoip47i$3b%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','https://smsapigateway.herokuapp.com/']
 
 
 # Application definition
